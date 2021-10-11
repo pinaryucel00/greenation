@@ -4,12 +4,14 @@ import { useState } from "react";
 
 const useStyles = makeStyles((theme) => ({
   button: {
-    marginLeft: "auto",
-    width: "20%",
+    flex: "1",
     padding: "1%",
     textTransform: "none",
-    fontSize: "25px",
+    fontSize: "20px",
     color: "#E1E8ED",
+    overflow: "hidden",
+    display: "block",
+    overflowWrap: "break-word",
   },
 }));
 
@@ -29,7 +31,7 @@ export default function TopBar({ state, setstate }) {
   const classes = useStyles();
 
   return (
-    <div>
+    <div style={{ display: "flex" }}>
       {REPORT_TYPES.map((reportType, index) => (
         <Button
           key={index}
