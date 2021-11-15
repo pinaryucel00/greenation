@@ -10,6 +10,10 @@ function App() {
     link =
       "https://drive.google.com/file/d/1p1G7TuzBoZZBWArJOSdnO2712AhQmO-g/preview";
   }
+  if (state === 1) {
+    link =
+      "https://drive.google.com/file/d/1Bl-8UB5A7VCgka79zwGaaa0bW-_p9fEm/preview";
+  }
 
   return (
     <div>
