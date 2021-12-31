@@ -14,6 +14,10 @@ function App() {
     link =
       "https://drive.google.com/file/d/1Bl-8UB5A7VCgka79zwGaaa0bW-_p9fEm/preview";
   }
+  if (state === 2) {
+    link =
+      "https://drive.google.com/file/d/1JpQXqLQvAYwybRDd1yko3fCVTKQR5YVR/preview";
+  }
 
   return (
     <div>
